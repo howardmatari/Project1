@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PaymentIsValid</fullName>
+    <active>false</active>
+    <description>Only allow numbers in payment field and not zero.</description>
+    <errorConditionFormula>NOT(REGEX(   Name , &quot;[a-zA-Z0\\.\\&apos;]+&quot;))</errorConditionFormula>
+    <errorMessage>You have entered an invalid payment.</errorMessage>
+</ValidationRule>

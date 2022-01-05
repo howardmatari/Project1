@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lesson_View</fullName>
+    <columns>NAME</columns>
+    <columns>Student_L__c</columns>
+    <columns>User_Tutor__c</columns>
+    <columns>Subject_L__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>Lesson View</label>
+    <language>en_US</language>
+</ListView>
